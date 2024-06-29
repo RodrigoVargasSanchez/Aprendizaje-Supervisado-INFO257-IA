@@ -55,8 +55,8 @@ El dataset utilizado contiene diversas características clínicas y demográfica
 
 ### Métricas de Evaluación
 Evaluamos los modelos utilizando las siguientes métricas:
-- **Accuracy**: Precisión del modelo.
-- **Precision**: Precisión de las predicciones positivas.
-- **Recall**: Cobertura de las predicciones positivas.
-- **F1 Score**: Media armónica de precisión y recall.
+- **Accuracy**: La proporción de ejemplos correctamente clasificados.
+- **Precision**: La proporción de positivos correctamente clasificados respecto a todos los ejemplos clasificados como positivo
+- **Recall**: La proporción de positivos correctamente clasificados respecto al total de positivos
+- **F1 Score**: La media armónica entre Recall y Precision asumiendo igual ponderación
 
